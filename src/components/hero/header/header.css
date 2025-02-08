@@ -1,0 +1,34 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: rgba(21, 20, 29, 0.25);
+  backdrop-filter: blur(27px);
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+h1 {
+  font-family: Rubik, sans-serif;
+}
+
+nav {
+  display: flex;
+}
+nav ul {
+  display: flex;
+  gap: 7.5px;
+  list-style: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+nav ul a {
+  color: #fff;
+  text-decoration: none;
+}

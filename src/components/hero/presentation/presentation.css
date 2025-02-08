@@ -1,0 +1,39 @@
+.presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  width: 90%;
+}
+
+.presentation-title-container {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 58.497px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68.247px; /* 116.667% */
+}
+.presentation-title-colored {
+  background: linear-gradient(90deg, #7186ff 11%, #fe7587 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.presentation-text {
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 19.499px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31.198px; /* 160% */
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
