@@ -9,7 +9,7 @@ a {
 
 body {
   max-width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .btn {
@@ -29,4 +29,11 @@ body {
 .btn:hover {
   transition: 250ms;
   background: #7286ff;
+}
+
+.global-separator {
+  background: rgba(245, 245, 245, 1);
+  opacity: 10%;
+  width: 60%;
+  margin: auto;
 }

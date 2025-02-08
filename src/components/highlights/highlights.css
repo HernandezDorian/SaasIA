@@ -1,0 +1,125 @@
+.highlights > div {
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.features-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.highlights-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.highlights-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 512px;
+  text-align: start;
+}
+
+.highlight-title {
+  color: #7286ff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.highlight-subtitle {
+  color: #fff;
+
+  font-size: 48px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1px;
+}
+
+.highlight-description {
+  color: #fff;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.features-table {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+
+  background: #15141d;
+  border-radius: 16px;
+  margin: 0 5%;
+  padding: 45px 65px;
+}
+.features-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.features-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+.line {
+  stroke-width: 1px;
+  stroke: rgba(237, 240, 238, 1);
+  opacity: 0.25;
+  height: 200px;
+}
+.viewAll {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  cursor: pointer;
+}
+.viewAll:hover {
+  transition: 250ms;
+  color: #7286ff;
+}
+
+.highlights-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}

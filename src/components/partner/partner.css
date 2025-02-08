@@ -1,0 +1,17 @@
+.partner {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 80px;
+  background: #10111a;
+  box-shadow: 0px 12px 60px 0px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+}
+
+.partner-scroll {
+  display: flex;
+  width: max-content;
+  gap: 80px;
+}

@@ -4,20 +4,25 @@ const Header = () => {
   return (
     <header>
       <div>
-        <h1>SaaS AI</h1>
+        <h1>IntelliSaaS AI</h1>
         <nav>
           <ul>
             <li>
-              <a href="#home">Home</a>
+              <a href="#home" className="selected">
+                Home
+              </a>
             </li>
             <li>
-              <a href="#features">Features</a>
+              <a href="#features">About</a>
             </li>
             <li>
-              <a href="#pricing">Pricing</a>
+              <a href="#pricing">Features</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact">Pricing</a>
+            </li>
+            <li>
+              <a href="#contact">Blog</a>
             </li>
           </ul>
         </nav>
